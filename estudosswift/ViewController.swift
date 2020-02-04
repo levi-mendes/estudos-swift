@@ -10,8 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBAction func adicionar() {
-        
+    @IBOutlet var nomeTextField: UITextField!
+    @IBOutlet var felicidadeTextField: UITextField!
+    
+    //version controller test
+    @IBAction func adicionar(_ sender: Any) {
+        let nome = nomeTextField.text
+        let felicidade = felicidadeTextField.text
+            
+         print("Comi \(nome) e fiquei com felicidade \(felicidade)")
     }
-
+    
 }
