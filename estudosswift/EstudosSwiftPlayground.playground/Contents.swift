@@ -1,19 +1,50 @@
 import UIKit
 
-let precos = [10, 49, 110.45, 20]
 
-for indice in 0...precos.count - 1 {
-    print(precos[indice])
+let numero = Int("kmksmdkfsdf")
+
+if let n = numero {
+    print(numero)
+} else {
+    print("numero is nil")
 }
 
-func somaPrecos(_ precos: [Double]) -> Double {
-    var soma = 0.0
-    
-    for preco in precos {
-        soma += preco
-    }
-    
-    return soma
-}
 
-print(somaPrecos(precos))
+//class Refeicao {
+//
+//    public var nome: String?
+//    public var felicidade: Int?
+//
+//    //public var description: String { return "Nome: \(nome) -- Felicidade: \(felicidade)" }
+//}
+//
+//let refeicao = Refeicao()
+//
+//refeicao.nome = "Feijoada"
+//refeicao.felicidade = 30
+//
+//if refeicao.nome != nil {
+//    //forced unwrap
+//    print(refeicao.nome!)
+//}
+//
+////Boas praticas para extrair valores opcionais
+////if let
+//if let nome = refeicao.nome {
+//    print(nome)
+//}
+//
+//func exibeNomeDaRefeicao() {
+//
+//    if let nome = refeicao.nome {
+//        print(nome)
+//    }
+//
+//    guard let nome = refeicao.nome else {
+//        return
+//    }
+//
+//    print(nome)
+//}
+//
+//exibeNomeDaRefeicao()
