@@ -6,8 +6,16 @@ let numero = Int("kmksmdkfsdf")
 if let n = numero {
     print(numero)
 } else {
-    print("numero is nil")
+    print("let --- numero is nil")
 }
+
+//caso o guard let nao consiga extrair o valor da variavel numero,
+//o comando return e executado e a execucao do codigo e interrompida
+//guard let n = numero else {
+    //print("guard let --- numero is nil")
+    //return
+//}
+
 
 
 //class Refeicao {
