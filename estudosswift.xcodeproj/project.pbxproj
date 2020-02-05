@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F0DFAA823EAF1B30064C216 /* EstudosSwiftPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = EstudosSwiftPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5F54BC5423E851FB00E97D41 /* estudosswift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = estudosswift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F54BC5723E851FB00E97D41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F54BC5923E851FB00E97D41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +57,7 @@
 		5F54BC5623E851FB00E97D41 /* estudosswift */ = {
 			isa = PBXGroup;
 			children = (
+				5F0DFAA823EAF1B30064C216 /* EstudosSwiftPlayground.playground */,
 				5F54BC5723E851FB00E97D41 /* AppDelegate.swift */,
 				5F54BC5923E851FB00E97D41 /* SceneDelegate.swift */,
 				5F54BC5B23E851FB00E97D41 /* ViewController.swift */,
