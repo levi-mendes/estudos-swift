@@ -2,34 +2,15 @@ import UIKit
 
 let totalCalorias = [12.2, 94, 56]
 
-func somaTotalDeCalorias(totalDeCalorias: Array<Double>) {
-    var result: Double = 0
+func somaCalorias(_ totalDeCalorias: [Double]) -> Double {
+    var result = 0.0
     
     for caloria in totalDeCalorias {
         result += caloria
     }
     
-    print(result)
+    return result
 }
 
-somaTotalDeCalorias(totalDeCalorias: totalCalorias)
-
-/*
------- arrays -----------------
-
-for tot in totalCalorias {
-    print(tot)
-}
-/*
-//for 1
-for i in 0...2 {
-    print(totalCalorias)
-}
-
-//for 2
-for i in 0...totalCalorias.count - 1 {
-    print(totalCalorias[i])
-}
-*/
-----------------------------------
-*/
+let somatotal = somaCalorias(totalCalorias)
+print(somatotal)
