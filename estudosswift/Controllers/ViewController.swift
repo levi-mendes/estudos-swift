@@ -15,7 +15,6 @@ class ViewController: UIViewController {
     
     //version controller test
     @IBAction func adicionar(_ sender: Any) {
-        
         /*
         //tenta pegar os TextField's, so vai lancar exeption se eles nao existirem
         if let nome = nomeTextField?.text, let felicidade = felicidadeTextField?.text {
@@ -36,18 +35,18 @@ class ViewController: UIViewController {
             return
         }
         
-        guard let felicidade = felicidadeTextField?.text else {
-            //TODO:
+        if nome.isEmpty {
+            print("Refeicao nao informada")
             return
         }
         
-        guard let valorFelicidade = Int(felicidade) else {
-            //TODO:
+        guard let felicidade = felicidadeTextField?.text,
+            let valorFelicidade = Int(felicidade) else {
+            print("valor para o campo felicidade invalido")
             return
         }
         
         let refeicao = Refeicao(nome, valorFelicidade)
         print("Comi \(refeicao.nome) e fiquei com felicidade \(refeicao.felicidade)")
     }
-    
 }
